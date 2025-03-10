@@ -1,0 +1,70 @@
+{
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.exe": "default",
+        "*.boc": "default"
+    },
+    "terminal.integrated.commandsToSkipShell": [
+        "WORD"
+    ],
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4o-mini",
+    "gitlens.views.searchAndCompare.files.layout": "list",
+    "gitlens.graph.dimMergeCommits": true,
+    "gitlens.graph.showRemoteNames": true,
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers",
+        "blocks"
+    ],
+    "workbench.editor.empty.hint": "hidden",
+    "launch": {
+        
+        "configurations": [
+            {
+                "args": [
+                    "--extensionDevelopmentPath=${workspaceFolder}"
+                ],
+                "name": "Launch Extension",
+                "outFiles": [
+                    "${workspaceFolder}/out/**/*.js"
+                ],
+                "preLaunchTask": "npm",
+                "request": "launch",
+                "type": "extensionHost"
+            },
+            
+
+            {
+                "args": [
+                    "--extensionDevelopmentPath=${workspaceFolder}"
+                ],
+                "name": "Launch Extension",
+                "outFiles": [
+                    "${workspaceFolder}/out/**/*.js"
+                ],
+                "preLaunchTask": "npm",
+                "request": "launch",
+                "type": "extensionHost"
+            },
+
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        }
+
+        ]
+    },
+    "vscode-edge-devtools.webhint": false,
+    "git.autofetch": true,
+    "gitlens.graph.layout": "editor",
+    "gitlens.views.commitDetails.files.layout": "list"
+}
