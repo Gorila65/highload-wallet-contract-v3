@@ -1,7 +1,7 @@
-import {
-    Address,
+import {https://github.com/continuation-team/highload-wallet-v3.git
+    Address,242f03c0a16b656b743949b201d2d23537841220
     beginCell,
-    Cell,
+        Cell,
     Contract,
     contractAddress,
     ContractProvider,
